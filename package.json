@@ -1,7 +1,13 @@
 {
   "name": "heroprotocol-json-parser",
   "version": "0.0.0",
-  "devDependencies": {
-    "commander": "^2.11.0"
+  "scripts": {
+    "install": "napa Blizzard/heroprotocol#f3bde9",
+    "postinstall": "cp ./heroprotocol.py node_modules/heroprotocol#f3bde9"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "lodash": "^4.17.4",
+    "napa": "^3.0.0"
   }
 }
