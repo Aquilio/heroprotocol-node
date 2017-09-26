@@ -1,5 +1,5 @@
 {
-  "name": "heroprotocol-json-parser",
+  "name": "heroprotocol-node",
   "version": "0.0.0",
   "scripts": {
     "install": "napa Blizzard/heroprotocol#f3bde9",
