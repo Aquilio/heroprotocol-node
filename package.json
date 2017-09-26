@@ -1,6 +1,7 @@
 {
   "name": "heroprotocol-node",
   "version": "0.0.0",
+	"main": "lib/index",
   "scripts": {
     "install": "napa Blizzard/heroprotocol#f3bde9",
     "postinstall": "cp ./heroprotocol.py node_modules/heroprotocol#f3bde9"
