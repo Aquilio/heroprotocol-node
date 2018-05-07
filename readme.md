@@ -1,6 +1,6 @@
 Wrapper for [https://github.com/Blizzard/heroprotocol](https://github.com/Blizzard/heroprotocol) to return valid JSON.
 
-Replace node_modules/heroprotocol#<commit/heroprotocol.py with the version in this repo. Originally from: https://github.com/esingleton/heroprotocol/commit/61622fba328e317480d9317a3910968ebd3a5cd5
+Releasehawk automatically grabs the latest version of `Blizzard/heroprotocol` and puts it in the `heroprotocol` folder along with the `heroprotocol.py` from https://github.com/esingleton/heroprotocol/commit/61622fba328e317480d9317a3910968ebd3a5cd5.
 
 Sample execution:
 
