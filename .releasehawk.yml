@@ -1,3 +1,4 @@
-owner/repo:
-  destination: ./vendor/repo
-  script: ./bin/handle-release.sh
+Blizzard/heroprotocol:
+  destination: ./heroprotocol
+  type: commit
+  script: ./bin/new-release.sh
