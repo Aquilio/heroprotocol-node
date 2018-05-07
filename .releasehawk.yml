@@ -1,0 +1,3 @@
+owner/repo:
+  destination: ./vendor/repo
+  script: ./bin/handle-release.sh
