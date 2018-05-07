@@ -1,0 +1,4 @@
+Blizzard/heroprotocol:
+  destination: ./heroprotocol
+  type: commit
+  script: ./bin/new-release.sh
