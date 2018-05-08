@@ -14,13 +14,13 @@ const heroprotocol = require('heroprotocol');
 
 //`includeStats` is a boolean flag for the --stats argument
 //Each method returns a promise, resolving to the JSON report requested
-heroprotocol.gameevents('path/to/replay'[, includeStats])
+const report = await heroprotocol.gameevents('path/to/replay'[, includeStats])
 ```
 
 ## Pre-requisites
 
 - `python` must be accessible from the CLI.
-- NodeJS >= v6 is required
+- NodeJS >= 8 is required
 
 ## API
 
