@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Aquilio/heroprotocol-node.svg?branch=master)](https://travis-ci.org/Aquilio/heroprotocol-node)
+
 This project is an interface to access the Blizzard provided parsing scripts. The supported `heroprotocol` arguments are exposed as methods, such as `heroprotocol.gameevents()`. See [usage](#usage).
 
 Releases for this project closely mirror Heroes of the Storm patches with
