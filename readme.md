@@ -2,12 +2,12 @@ NodeJS wrapper for [https://github.com/Blizzard/heroprotocol](https://github.com
 
 ## What this is
 
-This project is an interface to access the Blizzard provided parsing scripts, not a port. The supported `heroprotocol` arguments are exposed as methods, such as `heroprotocol.gameevents()`. See [#usage].
+This project is an interface to access the Blizzard provided parsing scripts, not a port. The supported `heroprotocol` arguments are exposed as methods, such as `heroprotocol.gameevents()`. See [usage](#usage).
 
 Releases for this project closely mirror Heroes of the Storm patches with
 [ReleaseHawk](https://github.com/Aquilio/releasehawk). New patches to `Blizzard/heroprotocol` are automatically downloaded with a corresponding PR. A short time later, we publish a new version of `heroprotocol-node` to NPM.
 
-## [Usage](#usage)
+## Usage
 
 Sample execution:
 
