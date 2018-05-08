@@ -19,12 +19,19 @@ const heroprotocol = require('heroprotocol');
 heroprotocol.gameevents('path/to/replay'[, includeStats])
 ```
 
+## Pre-requisites
+
+- `python` must be accessible from the CLI.
+- NodeJS >= v6 is required
+
 ## API
 
 Each report method accepts two arguments:
 
 - `path:String` Path of the replay file to be used.
 - `includeStats:Boolean` defaults to `false`. Set to `true` to add the `--stats` argument.
+
+_Note: There is currently an [open issue](https://github.com/Blizzard/heroprotocol/issues/64) with --stats not returning data._
 
 Supported methods:
 
