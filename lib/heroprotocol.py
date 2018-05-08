@@ -20,6 +20,9 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
+# This version modifies the script to return a single, valid, JSON object.
+# https://github.com/esingleton/heroprotocol/commit/61622fba328e317480d9317a3910968ebd3a5cd5
+
 import sys
 import argparse
 import pprint
@@ -134,4 +137,3 @@ if __name__ == '__main__':
         logger.log_stats(sys.stderr)
 
     logger.log(sys.stderr, events)
-

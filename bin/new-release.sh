@@ -1,3 +1,3 @@
 #!/bin/sh
- 
- cp heroprotocol.py heroprotocol
+
+ cp lib/heroprotocol.py heroprotocol
