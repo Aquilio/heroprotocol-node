@@ -7,6 +7,8 @@ Releases for this project closely mirror Heroes of the Storm patches with
 
 ## Usage
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Aquilio/heroprotocol-node.svg)](https://greenkeeper.io/)
+
 Sample execution:
 
 ```
