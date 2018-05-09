@@ -1,12 +1,15 @@
 language: python
-
 python:
-  - "2.7"
-
+- '2.7'
 before_install:
-  - nvm install 8
-
-install: npm install -g yarn && yarn
-
+- nvm install 8
+- npm install -g yarn
+- yarn global add greenkeeper-lockfile@1
+install: yarn
+before_script: greenkeeper-lockfile-update
 script:
-  - yarn test
+- yarn test
+after_script: greenkeeper-lockfile-upload
+env:
+  global:
+    secure: odqElIbTslfx8zoDhSv5TnRcCy/BCVEEkH94+HLL+xnhczlxJSnqHO/MP6o60nZU03FENDg1BygOo14At6Z5u4qU0ivIo8/jEeI+uIwoVxwkI8UlxoEIiYXJ+PVQBwl8ewghWlbfunpBxpLT5jaIWNaO1UGsu4WzRlvoi9DTwbEu455MrzQeA+fGDbaLQVQ7M7o9ooYujto8OsnVNp0RJvUU4gYoUTxkJOY1L6/Ku5FEzI+vXL8VnDjGtG89d5pJUcxVsls5m6Qe76D9Hu9DdTswaVFbeXdKdGkmgmC8MssOHDkicWnzIFINYZyFYCVEnBThGxhipvZNMKnR99JznmpPJ4O3Xx/ceqdTuSudC3B0laoz7hAIZEOUa+zxuGVPWV2TIilJTlHTFnjKPTWV3DpqmzLRpuW0yhk1ICDy6WYrwtuN9bnhZWr0FC5c0Z5VcbNJrIqYiQjAF0Kpvxu4KgBQupjRu+nY7rfqgFdvDzyKYaPJtiTjy1vSDUYLe1PMklJ8zsBixkZjeuvys7z9OkjA7UWwkljcmMjH3OVqyOuC5Sd0r662aiNpXZlB+YsQ5yNwcpBh+6HScX6Cj55zaBMeYrQcpOEsqvsmo1nTymMZhNWpxK1HpUXgdPvOj+xfpVsB4HL7vGLvOU1TWB5QLUFvUcTqYuaADmcUTsLsanQ=
