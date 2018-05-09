@@ -6,7 +6,7 @@ const Spawn = require('mock-spawn');
 
 let heroprotocol = require('../lib');
 
-const sample = path.resolve('./data/sample.stormReplay');
+const sample = path.resolve('./data/sample.StormReplay');
 const py = path.resolve('./heroprotocol/heroprotocol.py');
 
 describe('basic tests', () => {
