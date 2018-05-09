@@ -61,4 +61,17 @@ describe('basic tests', () => {
 			mock.stop('child_process');
 		});
 	});
+
+	it('should error for invalid paths', async () => {
+		let hasError;
+
+		try {
+			await heroprotocol.details('./data/foo.StormReplay');
+		}
+		catch(e) {
+			hasError = true;
+		}
+
+		assert.ok(hasError);
+	});
 });
