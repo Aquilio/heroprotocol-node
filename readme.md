@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Aquilio/heroprotocol-node.svg?branch=master)](https://travis-ci.org/Aquilio/heroprotocol-node)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Aquilio/heroprotocol-node.svg)](https://greenkeeper.io/)
 
 This project is an interface to access the Blizzard provided parsing scripts. The supported `heroprotocol` arguments are exposed as methods, such as `heroprotocol.gameevents()`. See [usage](#usage).
 
@@ -6,8 +7,6 @@ Releases for this project closely mirror Heroes of the Storm patches with
 [ReleaseHawk](https://github.com/Aquilio/releasehawk). New patches to `Blizzard/heroprotocol` are automatically downloaded with a corresponding PR. A short time later, we publish a new version of `heroprotocol-node` to NPM.
 
 ## Usage
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/Aquilio/heroprotocol-node.svg)](https://greenkeeper.io/)
 
 Sample execution:
 
