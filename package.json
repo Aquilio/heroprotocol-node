@@ -4,6 +4,10 @@
   "main": "lib/index",
   "homepage": "https://github.com/Aquilio/heroprotocol-node",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aquilio/heroprotocol-node"
+  },
   "author": "Alexis Abril <alexis@aquil.io> (https://aquil.io)",
   "contributors": [
     "Curtis Cummings <curtis@aquil.io> (https://aquil.io)"
