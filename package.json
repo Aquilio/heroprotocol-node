@@ -2,7 +2,22 @@
   "name": "heroprotocol-node",
   "version": "0.0.0",
   "main": "lib/index",
+  "homepage": "https://github.com/Aquilio/heroprotocol-node",
   "license": "MIT",
+  "author": "Alexis Abril <alexis@aquil.io> (https://aquil.io)",
+  "contributors": [
+    "Curtis Cummings <curtis@aquil.io> (https://aquil.io)"
+  ],
+  "bugs": {
+    "url": "https://github.com/Aquilio/heroprotocol-node/issues"
+  },
+  "keywords": [
+    "hots",
+    "heroes of the storm",
+    "blizzard",
+    "mpq",
+    "heroprotocol"
+  ],
   "engines": {
     "node": ">=8.0.0"
   },
