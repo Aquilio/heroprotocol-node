@@ -23,6 +23,14 @@ const report = await heroprotocol.gameevents('path/to/replay'[, includeStats])
 - `python` must be accessible from the CLI.
 - NodeJS >= 8 is required
 
+## Installation
+
+`npm i --save heroprotocol-node`
+
+or
+
+`yarn add heroprotocol-node`
+
 ## API
 
 Each report method accepts two arguments:
