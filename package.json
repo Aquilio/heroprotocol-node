@@ -1,6 +1,6 @@
 {
   "name": "heroprotocol-node",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "main": "lib/index",
   "homepage": "https://github.com/Aquilio/heroprotocol-node",
   "license": "MIT",
