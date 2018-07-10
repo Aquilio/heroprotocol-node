@@ -1,6 +1,6 @@
 {
   "name": "heroprotocol-node",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "description": "A Node interface for running the Python heroprotocol scripts provided by Blizzard.",
   "main": "lib/index",
   "homepage": "https://github.com/Aquilio/heroprotocol-node",
