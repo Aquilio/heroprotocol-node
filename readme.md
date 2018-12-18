@@ -1,3 +1,13 @@
+__Note:__ Due to the recent [announcement](https://news.blizzard.com/en-us/blizzard/22833558/heroes-of-the-storm-news) regarding the HGC 2019 season, this repository is being archived for the time being. Originally,
+this project was intended to be one piece of many leading in an application to analyze Heroes of the Storm gameplay. We'll leave the concept
+page up and now open to the public for the time being [gambit.aquil.io](https://gambit.aquil.io).
+
+In the near future, we may release the work we've done so far on that concept as a set of public projects, but we'll need to do some re-organizing
+beforehand. Special thanks to Gillyweed and Dreadnaught for initial feedback on the concept and to all the community devs we've discussed this
+with!
+
+_Mrgglglbrlg rmrmgllg mrggggm. Mrrglglgy, mgllglgl mgggrrmgl? MRGGGLGLLM! Mrrggllgggllggll mrrglrlg mrrg mrrg mrrrg._
+
 [![Build Status](https://travis-ci.org/Aquilio/heroprotocol-node.svg?branch=master)](https://travis-ci.org/Aquilio/heroprotocol-node)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Aquilio/heroprotocol-node.svg)](https://greenkeeper.io/)
 
